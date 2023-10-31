@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T23:49:39.233Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="bC_BBI6zCupgwV3yRbea" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T00:21:35.744Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="50FZOWfeuccX1UqPhVwW" version="22.0.8" type="github">
   <diagram name="페이지-1" id="cX7erf8BxX3n9yNCefGl">
-    <mxGraphModel>
+    <mxGraphModel dx="1468" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mukHgHj0lusfHrFC3gfv-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="770" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-2" value="도서 등록" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-3" value="선택한 도서 정보 조회" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-4" value="도서 목록 조회" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-5" value="도서관 회원 등록" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-6" value="선택한 도서 대출" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-7" value="선택한 도서 반납" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-8" value="대출 내역 조회" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-1" target="mukHgHj0lusfHrFC3gfv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-1" target="mukHgHj0lusfHrFC3gfv-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-1" target="mukHgHj0lusfHrFC3gfv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-4" target="mukHgHj0lusfHrFC3gfv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-3" target="mukHgHj0lusfHrFC3gfv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-3" target="mukHgHj0lusfHrFC3gfv-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-5" target="mukHgHj0lusfHrFC3gfv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-5" target="mukHgHj0lusfHrFC3gfv-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-5" target="mukHgHj0lusfHrFC3gfv-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mukHgHj0lusfHrFC3gfv-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="mukHgHj0lusfHrFC3gfv-2" target="mukHgHj0lusfHrFC3gfv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
