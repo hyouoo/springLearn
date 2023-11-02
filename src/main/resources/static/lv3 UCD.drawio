@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T08:47:15.561Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="46of_59MuakTM_2pd8vU" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T08:51:20.241Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mbYmaGabnlWM70vpcJ0a" version="22.0.8" type="github">
   <diagram name="페이지-1" id="p4o6X-f2PQRHb7dczt0j">
-    <mxGraphModel dx="1468" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1363" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
           <mxGeometry x="530" y="308" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aJDmtwj4xeGuQzkpHF-Y-13" value="강사 정보 수정" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="521" width="130" height="70" as="geometry" />
+          <mxGeometry x="746" y="454" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="aJDmtwj4xeGuQzkpHF-Y-14" value="권한 제한&lt;br&gt;(MANAGER만 가능)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aJDmtwj4xeGuQzkpHF-Y-13">
           <mxGeometry y="30" width="130" height="40" as="geometry" />
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aJDmtwj4xeGuQzkpHF-Y-29" value="강의 정보 수정" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="302" width="130" height="70" as="geometry" />
+          <mxGeometry x="746" y="244" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="aJDmtwj4xeGuQzkpHF-Y-30" value="권한 제한&lt;br&gt;(MANAGER만 가능)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aJDmtwj4xeGuQzkpHF-Y-29">
           <mxGeometry y="30" width="130" height="40" as="geometry" />
@@ -98,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aJDmtwj4xeGuQzkpHF-Y-32" value="강사의 강의 정보 조회" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="630" width="130" height="60" as="geometry" />
+          <mxGeometry x="746" y="614" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aJDmtwj4xeGuQzkpHF-Y-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aJDmtwj4xeGuQzkpHF-Y-17" target="aJDmtwj4xeGuQzkpHF-Y-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -113,6 +113,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="420" as="sourcePoint" />
             <mxPoint x="540" y="378" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJDmtwj4xeGuQzkpHF-Y-37" value="강의 삭제" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="746" y="333" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aJDmtwj4xeGuQzkpHF-Y-38" value="권한 제한&lt;br&gt;(MANAGER만 가능)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aJDmtwj4xeGuQzkpHF-Y-37">
+          <mxGeometry y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aJDmtwj4xeGuQzkpHF-Y-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aJDmtwj4xeGuQzkpHF-Y-12" target="aJDmtwj4xeGuQzkpHF-Y-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="334" as="sourcePoint" />
+            <mxPoint x="740" y="319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aJDmtwj4xeGuQzkpHF-Y-40" value="강사 삭제" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="746" y="534" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="aJDmtwj4xeGuQzkpHF-Y-41" value="권한 제한&lt;br&gt;(MANAGER만 가능)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="aJDmtwj4xeGuQzkpHF-Y-40">
+          <mxGeometry y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aJDmtwj4xeGuQzkpHF-Y-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="aJDmtwj4xeGuQzkpHF-Y-17" target="aJDmtwj4xeGuQzkpHF-Y-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="657" y="600" as="sourcePoint" />
+            <mxPoint x="744" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
